@@ -1,1 +1,33 @@
-
+{
+  "name": "itachiapi",
+  "version": "1.0.0",
+  "description": "A Node.js Express API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "ITACHI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milancodess/milanapi.git"
+  },
+  "dependencies": {
+    "axios": "^1.8.2",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.3.0",
+    "form-data": "^4.0.3",
+    "puppeteer": "^24.10.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "request": "^2.88.2",
+    "searchlyrics": "^1.0.2"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
