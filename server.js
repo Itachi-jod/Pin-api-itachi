@@ -185,7 +185,7 @@ function escapeHtml(html) {
 }
 
 app.get("/api/pinterest", async (req, res) => {
-  const query = req.query.query;
+  const query = req.query.q;
 
   if (!query) {
     return res.status(400).json({ error: "Missing 'query' parameter" });
