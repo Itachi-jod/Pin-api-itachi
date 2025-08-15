@@ -225,8 +225,8 @@ app.get("/api/pinterest", async (req, res) => {
       count: matches?.length || 0,
       data: matches || [],
       author: {
-        name: "milancodess",
-        contact: "https://www.facebook.com/milancodess",
+        name: "ItachiInx1de",
+        contact: "https://www.facebook.com/ITACHIFUCXX",
       },
     });
   } catch (error) {
